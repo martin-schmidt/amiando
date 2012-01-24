@@ -1,0 +1,62 @@
+--- !ruby/object:Typhoeus::Response 
+app_connect_time: 0.112109
+body: "{\"errors\":[\"com.amiando.api.rest.ticketType.TicketTypeAlreadyExists\"],\"success\":false}"
+code: 400
+connect_time: 0.057035
+curl_error_message: No error
+curl_return_code: 0
+effective_url: https://test.amiando.com/api/event/434441/ticketType/create?format=json&version=1&apikey=EHynu2WfcVkkO3VRce0ZWtWKplIpXjlhCuQuDn7s1MgKF9ztR0
+first_header_line: HTTP/1.1 400 Bad Request
+headers: |
+  HTTP/1.1 400 Bad Request
+  Date: Tue, 24 Jan 2012 11:48:50 GMT
+  Server: Apache/2.0.55 (Red Hat)
+  Set-Cookie: JSESSIONID=E54E7C2DA55038353E8D4927AD6FF016.web01; Path=/; Secure
+  Set-Cookie: JSESSIONID=E54E7C2DA55038353E8D4927AD6FF016.web01; Path=/
+  accept-charset: utf-8
+  P3P: policyref="/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD CON OUR IND UNI PUR COM CNT"
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+  Set-Cookie: ANONYMOUS_HASHED_REMEMBER_ME_COOKIE_KEY=a3QwWDFCc3dReXpBcE9ZeDoxMzI4NjE1NjYyNzc4OjZjYWQ4MzM0MzNhMTE0M2QwZTAxYTU4NTg2ZWZhMWM5; Expires=Sun, 22-Jan-2017 11:54:22 GMT; Path=/
+  Accept-Ranges: bytes
+  Cache-Control: max-age=7200
+  Expires: Tue, 24 Jan 2012 13:48:50 GMT
+  Vary: User-Agent
+  Connection: close
+  Transfer-Encoding: chunked
+  Content-Type: application/json;charset=UTF-8
+  
+
+headers_hash: !map:Typhoeus::NormalizedHeaderHash 
+  Date: Tue, 24 Jan 2012 11:48:50 GMT
+  Server: Apache/2.0.55 (Red Hat)
+  Set-Cookie: 
+  - JSESSIONID=E54E7C2DA55038353E8D4927AD6FF016.web01; Path=/; Secure
+  - JSESSIONID=E54E7C2DA55038353E8D4927AD6FF016.web01; Path=/
+  - ANONYMOUS_HASHED_REMEMBER_ME_COOKIE_KEY=a3QwWDFCc3dReXpBcE9ZeDoxMzI4NjE1NjYyNzc4OjZjYWQ4MzM0MzNhMTE0M2QwZTAxYTU4NTg2ZWZhMWM5; Expires=Sun, 22-Jan-2017 11:54:22 GMT; Path=/
+  Accept-Charset: utf-8
+  P3p: policyref="/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD CON OUR IND UNI PUR COM CNT"
+  Access-Control-Allow-Origin: "*"
+  Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT
+  Accept-Ranges: bytes
+  Cache-Control: max-age=7200
+  Expires: Tue, 24 Jan 2012 13:48:50 GMT
+  Vary: User-Agent
+  Connection: close
+  Transfer-Encoding: chunked
+  Content-Type: application/json;charset=UTF-8
+http_version: 
+mock: false
+name_lookup_time: 2.5e-05
+pretransfer_time: 0.112112
+primary_ip: 213.61.176.214
+request: |-
+  :method => :post,
+  	:url => https://test.amiando.com/api/event/434441/ticketType/create?format=json&version=1&apikey=EHynu2WfcVkkO3VRce0ZWtWKplIpXjlhCuQuDn7s1MgKF9ztR0,
+  	:params => {:type=>"TICKETTYPE_ETICKET"}
+requested_http_method: 
+requested_url: 
+start_time: 
+start_transfer_time: 0.278502
+status_message: Bad Request
+time: 0.27854
