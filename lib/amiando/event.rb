@@ -77,6 +77,21 @@ module Amiando
       object
     end
 
+
+    ##
+    # Payments
+    #
+    # @param [Integer] id event id
+    #
+    # @return [Result] with the result of the operation
+    def self.payments(id)
+      object = Result.new
+      get object, "/api/event/#{id}/payments"
+
+      object
+    end
+
+
     ##
     # Activate an event
     #
