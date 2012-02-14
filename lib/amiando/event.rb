@@ -83,7 +83,7 @@ module Amiando
     #
     # @param [Integer] id event id
     #
-    # @return [Result] with the result of the operation
+    # @return [Result] with the result of the operation. 
     def self.payments(id)
       object = Result.new
       get object, "/api/event/#{id}/payments"
