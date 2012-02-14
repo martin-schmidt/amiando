@@ -19,6 +19,8 @@ module Amiando
   autoload :TicketShop,     'amiando/ticket_shop'
   autoload :PaymentType,    'amiando/payment_type'
   autoload :TicketType,     'amiando/ticket_type'
+  autoload :Payment,        'amiando/payment'
+  autoload :Ticket,         'amiando/ticket'
 
   class Error < StandardError
     class ServiceDown    < Error; end

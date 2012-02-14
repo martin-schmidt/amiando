@@ -7,11 +7,10 @@ module Amiando
     ##
     # Get Tickets from Payment
     #
-    # @param [Integer] ticketID
+    # @param [Integer] the payments id
     #
-    # @raise [StandardError] if success isn't true
     # @return [Result] with an array of ids
-    def self.tickets(payment_id)
+    def self.tickets(id)
       object = Result.new { |response_body| response_body['tickets'] }
       get object, "/api/payment/#{id}/tickets"
         
