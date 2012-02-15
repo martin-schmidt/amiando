@@ -13,7 +13,7 @@ module Amiando
     def self.ticket(id)
       object = Result.new
       get object, "/api/ticket/#{id}"
-        
+              
       object
     end
 
