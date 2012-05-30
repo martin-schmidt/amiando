@@ -1,7 +1,7 @@
 module Amiando
 
   ##
-  # http://developers.amiando.com/index.php/REST_API_Users
+  # http://developers.amiando.com/index.php/REST_API_Tickets
   class Ticket < Resource
 
     ##
