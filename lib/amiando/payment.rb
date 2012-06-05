@@ -5,6 +5,19 @@ module Amiando
   class Payment < Resource
 
     ##
+    # Fetch a payment
+    #
+    # @param [Integer] the payments id
+    # 
+    # @return [Result] with the Payment
+    def self.find(id)
+      object = Result.new { |response_body| response_body['tickets'] }
+      get object, "/api/payment/#{id}"
+
+      object
+    end
+
+    ##
     # Get Tickets from Payment
     #
     # @param [Integer] the payments id
