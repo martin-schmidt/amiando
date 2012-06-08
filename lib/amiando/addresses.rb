@@ -2,7 +2,7 @@ module Amiando
 
   ##
   # http://developers.amiando.com/index.php/REST_API_Addresses
-  class Adresses < Resource
+  class Addresses < Resource
 
     ##
     # This request will return the billing address object of the user
