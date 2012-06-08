@@ -16,7 +16,7 @@ module Amiando
     # @return [Result] saying if the update was sucessful     #TODO
     def self.billing(id)
       object = Result.new
-      post object, "/api/user/#{id}/address/billing"
+      get object, "/api/user/#{id}/address/billing"
 
       object
     end
